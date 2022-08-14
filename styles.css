@@ -1,6 +1,9 @@
 #box-one,
 #box-two,
-#box-three {
+#box-three,
+#box-four,
+#box-five,
+#box-six {
 	width: 200px;
 	height: 200px;
 	display: flex;

@@ -19,7 +19,7 @@
                 <h3 class="black">Black text</h3>
             </div>
             <h3 id="colour-one"></h3>
-            <button id="One" onclick="changeDiv(id)">Change me!</button>
+            <button id="One" onclick="changeDivRGB(id)">Change me!</button>
         </div>
 
         <div class="column">
@@ -28,7 +28,7 @@
                 <h3 class="black">Black text</h3>
             </div>
             <h3 id="colour-two"></h3>
-            <button id="Two" onclick="changeDiv(id)">Change me!</button>
+            <button id="Two" onclick="changeDivRGB(id)">Change me!</button>
         </div>
 
         <div class="column">
@@ -37,11 +37,40 @@
                 <h3 class="black">Black text</h3>
             </div>
             <h3 id="colour-three"></h3>
-            <button id="Three" onclick="changeDiv(id)">Change me!</button>
+            <button id="Three" onclick="changeDivRGB(id)">Change me!</button>
         </div>
     </div>
-    <button id="all" onclick="changeAllDivs()">Change all!</button>
+    <button id="all" onclick="changeAllDivsRGB()">Change all!</button>
 
+    <div class="container">
+        <div class="column">
+            <div id="box-four">
+                <h3 class="white">White text</h3>
+                <h3 class="black">Black text</h3>
+            </div>
+            <h3 id="colour-four"></h3>
+            <button id="four" onclick="changeDivHex(id)">Change me!</button>
+        </div>
+
+        <div class="column">
+            <div id="box-five">
+                <h3 class="white">White text</h3>
+                <h3 class="black">Black text</h3>
+            </div>
+            <h3 id="colour-five"></h3>
+            <button id="five" onclick="changeDivHex(id)">Change me!</button>
+        </div>
+
+        <div class="column">
+            <div id="box-six">
+                <h3 class="white">White text</h3>
+                <h3 class="black">Black text</h3>
+            </div>
+            <h3 id="colour-six"></h3>
+            <button id="six" onclick="changeDivHex(id)">Change me!</button>
+        </div>
+    </div>
+    <button id="all" onclick="changeAllDivsHex()">Change all!</button>
 </body>
 
 </html>
