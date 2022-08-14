@@ -1,0 +1,23 @@
+{
+  "name": "colourpicker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dappernerddesigns/colourPicker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dappernerddesigns/colourPicker/issues"
+  },
+  "homepage": "https://github.com/dappernerddesigns/colourPicker#readme",
+  "devDependencies": {
+    "jest": "^28.1.3"
+  }
+}
