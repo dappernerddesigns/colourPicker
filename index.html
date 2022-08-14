@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="app.js" defer></script>
+    <link rel="stylesheet" href="styles.css">
+    <title>Colour picker</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="column">
+            <div id="box-one">
+                <h3 class="white">White text</h3>
+                <h3 class="black">Black text</h3>
+            </div>
+            <h3 id="colour-one"></h3>
+            <button id="One" onclick="changeDiv(id)">Change me!</button>
+        </div>
+
+        <div class="column">
+            <div id="box-two">
+                <h3 class="white">White text</h3>
+                <h3 class="black">Black text</h3>
+            </div>
+            <h3 id="colour-two"></h3>
+            <button id="Two" onclick="changeDiv(id)">Change me!</button>
+        </div>
+
+        <div class="column">
+            <div id="box-three">
+                <h3 class="white">White text</h3>
+                <h3 class="black">Black text</h3>
+            </div>
+            <h3 id="colour-three"></h3>
+            <button id="Three" onclick="changeDiv(id)">Change me!</button>
+        </div>
+    </div>
+    <button id="all" onclick="changeAllDivs()">Change all!</button>
+
+</body>
+
+</html>

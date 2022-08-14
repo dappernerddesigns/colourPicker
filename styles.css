@@ -1,0 +1,33 @@
+#box-one,
+#box-two,
+#box-three {
+	width: 200px;
+	height: 200px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 0;
+}
+
+.container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+.column {
+	display: flex;
+	flex-direction: column;
+}
+
+button {
+	margin-top: 15px;
+}
+
+.white {
+	color: white;
+}
+
+.hide {
+	display: none;
+}
